@@ -1,17 +1,19 @@
 delete from lousa;
-insert into lousa (nome, endereco) values ("Confident or Aprehansive X People or Tech", "/assets/images/capt.png");
-insert into lousa (nome, endereco) values ("Drop, add, keep, improve", "/assets/images/daki.png");
-insert into lousa (nome, endereco) values ("Future direction, Lessons learned, Accomplishments and Problem areas", "/assets/images/flap.png");
-insert into lousa (nome, endereco) values ("Dealing with Failure", "/assets/images/fmea.png");
-insert into lousa (nome, endereco) values ("Starfish", "/assets/images/starfish.png");
-insert into lousa (nome, endereco) values ("Glad and Sad", "/assets/images/gladSad.png");
-insert into lousa (nome, endereco) values ("Lessons learned", "/assets/images/lessonsLearned.png");
-insert into lousa (nome, endereco) values ("Liked, learned, lacked, longed for", "/assets/images/ls.png");
-insert into lousa (nome, endereco) values ("Open the Box", "/assets/images/openTheBox.png");
-insert into lousa (nome, endereco) values ("Plus, minus, interesting", "/assets/images/pmi.png");
-insert into lousa (nome, endereco) values ("Repeat x Avoid", "/assets/images/repeatAvoid.png");
-insert into lousa (nome, endereco) values ("Thumbs up, thumbs down, new ideas and recognition", "/assets/images/thumbsUpDown.png");
-insert into lousa (nome, endereco) values ("Worked well, kinda Worked, didn’t Work", "/assets/images/www.png");
-insert into lousa (nome, endereco) values ("Hot Air Balloon", "/assets/images/balloon.png");
-insert into lousa (nome, endereco) values ("Speed Car", "/assets/images/speedCar.png");
-insert into lousa (nome, endereco) values ("Sailboat", "/assets/images/boat.png");
+
+insert into lousa (nome, endereco) 
+     values ("Confident or Aprehansive X People or Tech", "/assets/images/capt.png"),
+            ("Drop, add, keep, improve", "/assets/images/daki.png"),
+            ("Future direction, Lessons learned, Accomplishments and Problem areas", "/assets/images/flap.png"),
+            ("Dealing with Failure", "/assets/images/fmea.png"),
+            ("Starfish", "/assets/images/starfish.png"),
+            ("Glad and Sad", "/assets/images/gladSad.png"),
+            ("Lessons learned", "/assets/images/lessonsLearned.png"),
+            ("Liked, learned, lacked, longed for", "/assets/images/ls.png"),
+            ("Open the Box", "/assets/images/openTheBox.png"),
+            ("Plus, minus, interesting", "/assets/images/pmi.png"),
+            ("Repeat x Avoid", "/assets/images/repeatAvoid.png"),
+            ("Thumbs up, thumbs down, new ideas and recognition", "/assets/images/thumbsUpDown.png"),
+            ("Worked well, kinda Worked, didn’t Work", "/assets/images/www.png"),
+            ("Hot Air Balloon", "/assets/images/balloon.png"),
+            ("Speed Car", "/assets/images/speedCar.png"),
+            ("Sailboat", "/assets/images/boat.png");
