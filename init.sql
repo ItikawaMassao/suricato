@@ -7,7 +7,7 @@ delete from lousa;
 INSERT INTO permissao (nome) VALUES('admin');
 
 INSERT INTO usuario (ativo, email, nome, senha, permissao_id)
-              VALUES(1, 'massao@mail.com', 'massao', '$2a$12$O0jy4fsDP0Z010Qf/qcSfuCmxdzBoJborMBXf5.d.scbfwrQfg4aS', (SELECT Id FROM permissao WHERE nome = 'admin'));
+              VALUES(1, 'admin@mail.com', 'admin', '$2a$12$25IAPbfDQW0sAZ/SJl2zVOR0neMtz3zwIJNMXc4PMEqkQMDUW6QbC', (SELECT Id FROM permissao WHERE nome = 'admin'));
 
 insert into lousa (nome, endereco) 
      values ("Confident or Aprehansive X People or Tech", "/assets/images/capt.png"),
