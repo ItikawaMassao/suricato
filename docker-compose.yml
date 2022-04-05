@@ -2,6 +2,7 @@
 version: '3'
 services:
   mysql_db:
+    container_name: mysql
     image: mysql:5.7
     env_file: ./.env
     environment:
@@ -20,6 +21,7 @@ services:
         retries: 10
 
   webapp:
+    container_name: suricato_web
     build: .
     env_file: ./.env
     ports:
